@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const userRoute = require("./routes/user");
 const authRoute = require('./routes/auth');
+const dishRoute = require('./routes/dish');
 
 
 
@@ -23,6 +24,7 @@ mongoose.connect(
 
      app.use("/api/auth", authRoute);
      app.use("/api/users", userRoute);
+     app.use("/api/dishes", dishRoute);
 
 
 
