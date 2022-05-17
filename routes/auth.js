@@ -50,7 +50,7 @@ router.post("/login", async(req,res)=>{
             isAdmin: user.isAdmin,
             
         }, process.env.SECRET_JWT,
-        {expiresIn:"1d"}
+        {expiresIn:"3d"}
         );
 
 
