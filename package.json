@@ -1,0 +1,20 @@
+{
+  "name": "restaurantapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piotrwincencik/restaurantapi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piotrwincencik/restaurantapi/issues"
+  },
+  "homepage": "https://github.com/piotrwincencik/restaurantapi#readme"
+}
