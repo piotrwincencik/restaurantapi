@@ -20,13 +20,13 @@ mongoose.connect(
 
      app.use(express.json());
 
-     
+
      app.use("/api/auth", authRoute);
      app.use("/api/users", userRoute);
 
 
 
 
-app.listen(3001 , ()=>{
+app.listen(5000 , ()=>{
     console.log(`Server is running.`);
 }) 
