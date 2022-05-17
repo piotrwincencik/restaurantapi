@@ -5,6 +5,7 @@ const userRoute = require("./routes/user");
 const authRoute = require('./routes/auth');
 const dishRoute = require('./routes/dish');
 const orderRoute = require('./routes/order');
+const billRoute = require('./routes/bill');
 
 
 
@@ -27,6 +28,7 @@ mongoose.connect(
      app.use("/api/users", userRoute);
      app.use("/api/dishes", dishRoute);
      app.use("/api/orders", orderRoute);
+     app.use("/api/bills", billRoute);
 
 
 
