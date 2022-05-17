@@ -45,7 +45,7 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
   });
   
 
-  //Get dish
+  //GET DISH
   router.get("/:id", async (req, res) => {
     try {
       const dish = await Dish.findById(req.params.id);
@@ -55,7 +55,7 @@ router.delete("/:id", verifyTokenAndAdmin, async (req, res) => {
     }
   });
   
-  //Get all dishes
+  //GET ALL DISHES
   router.get("/",  async (req, res) => {
     const newQuery = req.query.new;
     const categoryQuery = req.query.category;

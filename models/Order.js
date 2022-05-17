@@ -15,7 +15,7 @@ const OrderSchema = new mongoose.Schema(
     ],
     orderStatus:{
         type:String,
-        default:"Not ordered yet.",
+        default:"Ordered.",
     }
 
     },
